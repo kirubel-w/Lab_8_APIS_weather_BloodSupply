@@ -1,0 +1,31 @@
+body {
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Be as wide as the browser */
+#apod-image {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: none;   /* Hide image */
+}
+
+/* Set to standard YouTube dimensions */
+#apod-video {
+    width: 960px;
+    height: 540px;
+    display: none;  /* Hide video iframe */
+}
+
+#apod-explanation {
+    color: white;
+}
+
+#apod-explanation a {
+    color: #66b3ff;
+}
+#apod-explanation a:hover {
+    color: #ffd166;
+}
